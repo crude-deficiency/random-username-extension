@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Random Usernames",
+  "version": "1.0",
+
+  "description": "Generates random usernames",
+  //"homepage_url": "",
+  "icons": {
+  },
+
+  "browser_action": {
+//    "default_icon": "icons/beasts-48.png",
+    "default_title": "Random Usernames",
+    "default_popup": "popup/popup.html"
+  }
+
+}

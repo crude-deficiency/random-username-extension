@@ -1,0 +1,13 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+div.name{
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+div.name:hover{
+  background: #cdcdcd;
+}
