@@ -13,6 +13,12 @@
 //    "default_icon": "icons/beasts-48.png",
     "default_title": "Random Usernames",
     "default_popup": "popup/popup.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "random-username@crude-deficiency.com"
+    }
   }
 
 }
