@@ -72302,11 +72302,25 @@ function displayNames(){
   var i;
   for (i=0; i < names.length; i++){
     let name = document.createElement("div");
-    name.setAttribute("class", "name");
+    name.setAttribute("class", "option");
     name.innerHTML = names[i];
-    document.body.appendChild(name);
+    document.getElementById("names").appendChild(name);
     listenForClicks(name);
   }
 }
 
+function clearNames(){
+  document.getElementById("names").innerHTML="";
+}
+
+function regenSetup()
+{
+  regen = document.getElementById("regen");
+  regen.addEventListener("click", function(){
+    clearNames();
+    displayNames(); 
+  });
+}
+
 displayNames();
+regenSetup();
