@@ -72285,7 +72285,7 @@ function pickNames(){
   for (i=0; i < 5; i++){
     var first = Math.floor(Math.random() * howmany);
     var second = Math.floor(Math.random() * howmany);
-    picked[i] = words[first] + "-" + words[second];
+    picked[i] = words[first] + "&#8209;" + words[second];
   }
   return picked;
 }
