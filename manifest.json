@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Random Usernames",
-  "version": "1.0",
+  "version": "1.0.2",
 
   "description": "Generates random usernames",
   //"homepage_url": "",
